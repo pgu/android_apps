@@ -1,0 +1,14 @@
+PERT/bin/
+PERT/gen/
+PERT/.classpath
+PERT/.project
+
+PlanningPoker/bin/
+PlanningPoker/gen/
+PlanningPoker/.classpath
+PlanningPoker/.project
+
+StandUp/bin/
+StandUp/gen/
+StandUp/.classpath
+StandUp/.project

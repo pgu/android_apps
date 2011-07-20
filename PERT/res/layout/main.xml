@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optimistic" />
+        <EditText android:id="@+id/optimistic" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nominal" />
+        <EditText android:id="@+id/nominal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pessimistic" />
+        <EditText android:id="@+id/pessimistic" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button android:id="@+id/calculate" android:text="@string/calculate" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/reset" android:text="@string/reset" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/result" />
+        <TextView android:id="@+id/result" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

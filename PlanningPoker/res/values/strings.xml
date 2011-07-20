@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlanningPoker</string>
+    <string name="title">Planning Poker</string>
+    <string name="card01">1</string>
+    <string name="card02">2</string>
+    <string name="card03">3</string>
+    <string name="card05">5</string>
+    <string name="card08">8</string>
+    <string name="card13">13</string>
+    <string name="card21">21</string>
+    <string name="reset">Reset</string>
+</resources>

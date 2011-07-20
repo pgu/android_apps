@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PERT</string>
+    <string name="title">PERT Calculator</string>
+    <string name="optimistic">optimistic</string>
+    <string name="nominal">nominal</string>
+    <string name="pessimistic">pessimistic</string>
+    <string name="calculate">calculate</string>
+    <string name="reset">reset</string>
+    <string name="result">result</string>
+</resources>

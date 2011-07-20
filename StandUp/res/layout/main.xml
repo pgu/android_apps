@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:orientation="vertical" android:layout_weight="1">
+        <TextView android:id="@+id/qYesterday" android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="@string/qYesterday" android:padding="10px" android:textSize="24px" android:layout_weight="1" />
+        <TextView android:id="@+id/qToday" android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="@string/qToday" android:padding="10px" android:textSize="24px" android:layout_weight="1" />
+        <TextView android:id="@+id/qWay" android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="@string/qWay" android:padding="10px" android:textSize="24px" android:layout_weight="1" />
+    </LinearLayout>
+    
+    <TextView android:id="@+id/countdown" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="@string/countdown" android:padding="10px" android:textSize="96px" android:gravity="center"
+        android:layout_weight="1" />
+
+    <LinearLayout android:id="@+id/actions" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <Button android:id="@+id/go" android:layout_height="wrap_content" android:text="@string/go"
+            android:layout_width="fill_parent" android:layout_weight="1"></Button>
+        <Button android:id="@+id/reset" android:layout_height="wrap_content" android:text="@string/reset"
+            android:layout_width="fill_parent" android:layout_weight="2"></Button>
+
+    </LinearLayout>
+</LinearLayout>
