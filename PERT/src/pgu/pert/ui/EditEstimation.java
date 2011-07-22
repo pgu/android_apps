@@ -40,4 +40,8 @@ public class EditEstimation {
         return field.length() == 0;
     }
 
+    public void focus() {
+        field.requestFocus();
+    }
+
 }

@@ -28,6 +28,7 @@ public class ButtonReset {
                 presenter.resetNominal();
                 presenter.resetPessimistic();
                 presenter.resetResult();
+                presenter.resetFocusOnFirstField();
             }
         });
     }

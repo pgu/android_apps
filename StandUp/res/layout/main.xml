@@ -13,7 +13,7 @@
     </LinearLayout>
     
     <TextView android:id="@+id/countdown" android:layout_width="fill_parent" android:layout_height="wrap_content"
-        android:text="@string/countdown" android:padding="10px" android:textSize="96px" android:gravity="center"
+        android:text="@string/countdown" android:padding="10px" android:textSize="256px" android:gravity="center"
         android:layout_weight="1" />
 
     <LinearLayout android:id="@+id/actions" android:layout_height="wrap_content" android:layout_width="match_parent">

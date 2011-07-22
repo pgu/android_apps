@@ -5,7 +5,7 @@
     <string name="optimistic">optimistic</string>
     <string name="nominal">nominal</string>
     <string name="pessimistic">pessimistic</string>
-    <string name="calculate">calculate</string>
-    <string name="reset">reset</string>
-    <string name="result">result</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="result">RESULT</string>
 </resources>

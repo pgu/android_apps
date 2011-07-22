@@ -1,9 +1,8 @@
 package pgu.pert.activity;
 
+import java.text.DecimalFormat;
+
 import pgu.pert.R;
-import pgu.pert.R.id;
-import pgu.pert.R.layout;
-import pgu.pert.R.string;
 import pgu.pert.presenter.CalculatorPERTPresenter;
 import pgu.pert.presenter.ResetPresenter;
 import pgu.pert.presenter.ResultPERTPresenter;
@@ -24,6 +23,7 @@ public class PERTActivity extends Activity implements ResetPresenter, Calculator
     private EditEstimation pessimistic;
     private TextView result;
     private ButtonCalculatePert btnCalculatePert;
+    private final DecimalFormat decimalFormat = new DecimalFormat("#.#");
 
     /** Called when the activity is first created. */
     @Override
@@ -57,12 +57,12 @@ public class PERTActivity extends Activity implements ResetPresenter, Calculator
 
     @Override
     public void setResult(final Float r) {
-        result.setText("" + r);
+        result.setText(decimalFormat.format(r));
     }
 
     @Override
     public void resetResult() {
-        result.setText("");
+        result.setText("0");
     }
 
     @Override
@@ -93,6 +93,11 @@ public class PERTActivity extends Activity implements ResetPresenter, Calculator
     @Override
     public Float getPessimisticValue() {
         return pessimistic.getValueFloat();
+    }
+
+    @Override
+    public void resetFocusOnFirstField() {
+        optimistic.focus();
     }
 
 }

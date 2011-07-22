@@ -1,6 +1,5 @@
 package pgu.pert.presenter;
 
-
 public interface ResetPresenter {
 
     void resetOptimistic();
@@ -10,5 +9,7 @@ public interface ResetPresenter {
     void resetPessimistic();
 
     void resetResult();
+
+    void resetFocusOnFirstField();
 
 }

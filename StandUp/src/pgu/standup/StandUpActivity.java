@@ -6,7 +6,9 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.View;
 import android.view.View.OnClickListener;
 
@@ -50,7 +52,7 @@ public class StandUpActivity extends Activity {
                 resetApp();
 
                 if (null != text) { // stand up est en cours
-                // Log.i(TAG, "click-text " + text.getTextView().toString());
+                    // Log.i(TAG, "click-text " + text.getTextView().toString());
                     int idx = texts.indexOf(text);
                     idx++; // go to next
                     if (idx == texts.size()) {
@@ -125,6 +127,9 @@ public class StandUpActivity extends Activity {
                 seconds--;
                 countdown.update(seconds);
             } else {
+                final Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                v.vibrate(1000);
+
                 countdown.reset();
                 countdownTask.cancel();
             }
