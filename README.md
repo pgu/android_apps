@@ -1,7 +1,4 @@
 <html>
-	<head>
-		<title></title>
-	</head>
 	<body>
 		<p>
 			Simple apps after reading The Clean Coder (by Robert C. Martin):</p>
