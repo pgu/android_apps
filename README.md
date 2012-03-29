@@ -1,7 +1,7 @@
 <html>
 	<body>
 		<p>
-			Simple apps after reading The Clean Coder (by Robert C. Martin):</p>
+			Simple android applications after reading The Clean Coder (by Robert C. Martin):</p>
 		<ul>
 			<li>
 				PERT calculator (Program Evaluation and Review Technique)&nbsp;</li>
